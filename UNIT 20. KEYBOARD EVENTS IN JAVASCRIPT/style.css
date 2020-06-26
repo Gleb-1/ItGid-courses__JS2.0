@@ -1,0 +1,52 @@
+.container {
+  width: 100%;
+}
+
+section {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px dashed #444;
+}
+
+.block {
+  width: 75px;
+  height: 75px;
+  margin: 25px;
+  border: 2px solid #333;
+}
+
+.active {
+  background: orange;
+}
+
+.hide {
+  display: none;
+}
+
+.clearfix {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.keyboard {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.key {
+  float: left;
+  border: 1px solid black;
+  text-align: center;
+  margin: 5px;
+  padding: 3px 10px;
+  -webkit-user-select: none;
+}
+
+.active {
+  background: rgba(30, 30, 30, 0.5);
+}
+.appercase {
+  text-transform: uppercase;
+}
